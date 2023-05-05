@@ -11,7 +11,7 @@ import com.example.gestionreclamation.entity.Reclamation;
 public interface ReclamationMetier  {
 	
 	
-		public void saveReclamation(Reclamation reclamation, String user);
+		//public void saveReclamation(Reclamation reclamation, String user);
 		public List<Reclamation> listReclamations();
 		//public User getReclamationByUser(String username);
 		public Reclamation getReclamationById(Long id);
