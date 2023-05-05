@@ -16,14 +16,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+
 @RestController
 @RequestMapping(value = "/clients")
 public class ClientRestAPI {
+	private String title = "Hello, I'm the client Microservice";
 	
 	@Autowired
 	private ClientService clientService;
-	
-	
+	@RequestMapping("/hello")
+	public String sayHello() {
+		System.out.println(title);
+		return title;
+	}
+
 	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
 	public ResponseEntity<Client> createClient(@RequestBody Client client) {
