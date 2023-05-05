@@ -19,6 +19,7 @@ private long id;
 private String titre;
 private String description;	
 private String etat ="en attente";	
+private Gravite gravite ;
 
 
 public Long getId() {
@@ -60,24 +61,28 @@ public Long getId() {
 		this.etat = etat;
 	}
 
+	public Gravite getGravite() {
+		return gravite;
+	}
 
+
+	public void setGravite(Gravite gravite) {
+		this.gravite = gravite;
+	}
 	
 
-	
+	public Reclamation() {
+		// corps du constructeur
+	}
 
 
-
-
-
-	
-
-
-	public Reclamation(@NotNull Long id, String titre, String description, String etat) {
+	public Reclamation(@NotNull Long id, String titre, String description, String etat, Gravite gravite) {
 		super();
 		this.id = id;
 		this.titre = titre;
 		this.description = description;
 		this.etat = etat;
+		this.gravite=gravite;
 	}
 
 	
@@ -85,6 +90,7 @@ public Long getId() {
 	@Override
 	public String toString() {
 		return "Reclamation [id=" + id + ", titre=" + titre + ", description=" + description + ", etat=" + etat
+				 +"gravite=" + gravite
 				 +"]";
 	}
 	

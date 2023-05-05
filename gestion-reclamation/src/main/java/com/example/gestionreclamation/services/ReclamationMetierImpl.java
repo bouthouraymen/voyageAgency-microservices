@@ -27,12 +27,12 @@ public class ReclamationMetierImpl implements ReclamationMetier {
 	}*/
 	@Autowired
 	ReclamationRepository recRep;
-	@Override
+	/*@Override
 	public void saveReclamation(Reclamation reclamation, String user) {
 		// TODO Auto-generated method stub
 		//reclamation.setUser(userRep.getById(user));
 		recRep.save(reclamation);
-	}
+	}*/
 
 	@Override
 	public List<Reclamation> listReclamations() {
