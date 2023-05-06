@@ -1,0 +1,6 @@
+com\esprit\microservice\EndroitService\Controller\EndroitController.class
+com\esprit\microservice\EndroitService\Entity\Endroit.class
+com\esprit\microservice\EndroitService\EndroitApplication.class
+com\esprit\microservice\EndroitService\Repositories\EndroitServiceImpl.class
+com\esprit\microservice\EndroitService\dao\EndroitRepository.class
+com\esprit\microservice\EndroitService\Repositories\IEndroitService.class

@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  newendroits:
+    container_name: newendroits
+    image: endroit-images
+    ports:
+      - "5060:5060"
+    links:
+      - db
+  db:
+    image: mysql:latest
+    container_name: db
+    restart: always
+    environment:
+      MYSQL_DATABASE: pidev
+    ports:
+      - "5506:5506"
