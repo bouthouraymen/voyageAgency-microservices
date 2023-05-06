@@ -1,0 +1,5 @@
+com\esprit\microservice\TicketService\Services\TicketService.class
+com\esprit\microservice\TicketService\Controller\TicketRestAPI.class
+com\esprit\microservice\TicketService\TicketApplication.class
+com\esprit\microservice\TicketService\Entity\Ticket.class
+com\esprit\microservice\TicketService\Repositories\TicketRepository.class
