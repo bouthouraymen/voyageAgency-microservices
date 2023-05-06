@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.esprit.microservice.EndroitService.EndroitApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.304 s - in com.esprit.microservice.EndroitService.EndroitApplicationTests
