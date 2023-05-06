@@ -3,6 +3,7 @@
 This is a microservices-based system developed for managing a travel agency's operations. The system consists of several microservices, each developed in a different language or framework, and deployed using Docker Compose. The system uses Eureka for service discovery and Zuul gateway for routing requests to the appropriate microservice.
 
 * Microservices
+
 The microservices included in this system are:
 
 Reclamation Service: Handles customer complaints and feedback
